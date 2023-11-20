@@ -1,0 +1,77 @@
+
+.projects h1 {
+    color: var(--color-blue-300);
+}
+
+.all-projects {
+    display: flex;
+    width: fit-content;
+    list-style: none;
+    gap: 2.5rem;
+    padding: 0;
+    justify-content: center;
+    margin: 5rem auto;
+}
+.all-projects li {
+    filter: drop-shadow(0px 0px 1px var(--color-blue-300));
+    transition: all ease 1s;
+}
+.all-projects li:hover {
+    filter: drop-shadow(0px 0px 7px var(--color-blue-300));
+    scale: 1.12;
+}
+.all-projects:hover > li:not(:hover) {
+    scale: 0.9;
+    opacity: 0.5;
+}
+.project1 {
+    width: 17rem;
+    height: 25rem;
+    background-color: white;
+    color: #0e0e0e;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.project1 img{
+    width: 17rem;
+    object-fit: fill;
+}
+.img-div{
+    width: 17rem;
+    height: 11rem;
+}
+#project1 img {
+    height: 10rem;
+    object-fit: contain;
+}
+
+#project2 img {
+    height: 10rem;
+    object-fit: contain;
+}
+.discription{
+    padding: 1rem;
+}
+.discription p:not(.projects-heading){
+    height: 5.6rem;
+}
+.projects-heading {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bolder;
+    color: var(--color-blue-300);
+    margin: 0;
+}
+.view-btn{
+    display: block;
+    padding: 6px 12px;
+    background-color: var(--color-blue-300);
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    opacity: 0.8;
+}
+.view-btn:hover {
+    opacity: 1;
+}

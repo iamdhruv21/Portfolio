@@ -1,0 +1,36 @@
+.about h1 {
+    margin: 0px 0px;
+    color: white;
+    padding: 12px 0px;
+    text-align: center;
+}
+
+.img-bg {
+    display: block;
+    margin: 1rem auto;
+    /* width: 80%; */
+    width: 25rem;
+    height: 25rem;
+    background-color: var(--color-blue-300);
+    border-radius: 50%;
+}
+.about-me {
+    display: flex;
+    width: 90%;
+    gap: 10%;
+    margin: 0 auto;
+}
+
+.about-left span {
+    width: 25rem;
+    height: 25rem;
+}
+.about-left {
+    width: 30%;
+}
+
+.about-right {
+    width: 60%;
+    padding: 1.5rem 7rem;
+    margin: 3rem auto;
+}

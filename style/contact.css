@@ -1,0 +1,127 @@
+.contact{
+    height: 85vh;
+}
+
+.contact h1{
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding: 34px 0xpx;
+    font-size: 4rem;
+}
+.container{
+    margin: 24px auto;
+    padding: 13px;
+    background-color: rgba(0, 166, 255, 0.2);
+    backdrop-filter: blur(50px);
+    width: fit-content;
+    border: 1px solid var(--color-blue-300);
+    border-radius: 0.5rem;
+}
+.line1, .line2, .line3{
+    margin: 5px;
+    display: flex;
+}
+.line3{
+    margin: 10px;
+}
+.line3 textarea {
+    resize: none;
+    padding: 8px;
+    color: white;
+    background-color:  rgba(1, 42, 88, 0.5);
+    border: 0.5px solid rgb(1, 42, 88);
+    outline: none;
+}
+.line3 textarea::placeholder, input[type=text]::placeholder {
+    color: white;
+}
+input[type=text] {
+    padding: 8px;
+    outline: none;
+    background-color:  rgba(1, 42, 88, 0.5);
+    color: white;
+    border: 0.5px solid rgb(1, 42, 88);
+}
+.line11, .line12, .line21, .line22{
+    margin: 10px 5px;
+}
+.line12, .line22{
+    margin-left: 22px;
+}
+.container button {
+    display: block;
+    margin: 10px auto;
+    background: linear-gradient(to right, rgb(1, 42, 88), rgb(0, 83, 149));
+    border: 1px solid rgb(1, 42, 88);
+}
+.container button:hover {
+    background: linear-gradient(to right, rgb(1, 42, 88), rgb(11, 73, 123));
+
+}
+
+footer {
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    color: white;
+}
+
+.footer-left{
+    font-size: small;
+    font-weight: 500;
+}
+
+.footer-left h3 {
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+.footer-left ul {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0px;
+}
+.footer-left li {
+    padding: 2px 0px;
+    display: flex;
+    align-items: center;
+}
+.footer-left li span {
+    margin: 0.3rem;
+}
+.footer-left li:hover, .footer-left li:hover path {
+    color: var(--color-blue-300);
+    cursor: pointer;
+    stroke: var(--color-blue-300);
+    fill: white;
+    stroke-width: 2.5;
+}
+.footer-center p {
+    text-align: center;
+}
+.footer-center ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.footer-center li {
+    padding: 5px;
+}
+.footer-center li {
+    cursor: pointer;
+}
+.footer-center li:hover path, .footer-center li:hover circle {
+    stroke: var(--color-blue-300);
+}
+
+.footer-right-ul {
+    list-style: none;
+    text-align: center;
+}
+.footer-right-ul li {
+    padding: 2px;
+    margin: 0;
+}
