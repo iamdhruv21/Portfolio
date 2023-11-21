@@ -1,0 +1,23 @@
+@media screen and (max-width:450px) {
+    .about h1 {
+        font-size: 2rem;
+    }
+    .about-me {
+        flex-direction: column;
+    }
+    .about-left span {
+        width: 15rem;
+        height: 15rem;
+        display: block;
+        margin: 0 auto;
+    }
+    .about-right {
+        padding: 0;
+    }
+    .about-right p{
+        text-align: justify;
+    }
+    #sp {
+        display: none;
+    }
+}

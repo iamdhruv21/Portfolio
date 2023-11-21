@@ -5,7 +5,7 @@ body {
     --color-blue-300: rgb(0, 166, 255);
     --color-blue-700: rgb(13, 102, 235);
     color: white;
-    width: 100vw;
+    /* width: 100vw; */
 }
 
 .header {
@@ -112,6 +112,15 @@ body {
 .btn:hover {
     background-color: rgb(34, 140, 233);
     box-shadow: 1px 1px 2px var(--color-blue-700);
+}
+
+.img-bg {
+    display: block;
+    margin: 1rem auto;
+    width: 25rem;
+    height: 25rem;
+    background-color: var(--color-blue-300);
+    border-radius: 50%;
 }
 
 .skills h1, .projects h1 {

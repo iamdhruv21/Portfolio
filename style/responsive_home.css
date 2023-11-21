@@ -1,0 +1,47 @@
+@media screen and (max-width:450px) {
+    .header {
+        padding: 0.5rem 2rem;
+    }
+    
+    .logo a {
+        font-size: 2rem;
+    }
+
+    .nav-ul {
+        display: none;
+    }
+    #home {
+        width: 100%;
+        padding: 1rem;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+    .hero {
+        width: 100%;
+        padding: 1rem;
+        overflow: hidden;
+        box-sizing: border-box;
+        padding-bottom: 0;
+    }
+    .hero-image {
+        width: 100%;
+        height: fit-content;
+        overflow: hidden;
+    }
+    .hero h1{
+        font-size: 3rem;
+        margin: 0;
+    }
+    .hero p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+    .btn {
+        display: block;
+        margin: 2rem auto;
+    }
+    .img-bg {
+        width: 15rem;
+        height: 15rem;
+    }
+}
