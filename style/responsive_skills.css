@@ -1,0 +1,15 @@
+@media screen and (max-width:450px) {
+    #skills-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 7rem);
+    }
+    .skill-box img {
+        margin: 0.3rem auto;
+    }
+    .skill-box h2 {
+        font-size: 0.8rem;
+    }
+    #skill5 .img-box {
+        height: 60%;
+    }
+}
