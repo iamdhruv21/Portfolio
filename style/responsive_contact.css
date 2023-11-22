@@ -1,0 +1,8 @@
+@media screen and (max-width:450px) {
+    footer {
+        flex-direction: column;
+    }
+    .footer-left h3 {
+        text-align: center;
+    }
+}
