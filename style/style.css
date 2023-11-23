@@ -115,12 +115,19 @@ body {
 }
 
 .img-bg {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 1rem auto;
     width: 25rem;
     height: 25rem;
-    background-color: var(--color-blue-300);
+    /* background-color: var(--color-blue-300);
+    border-radius: 50%; */
+}
+.img-bg img {
     border-radius: 50%;
+    width: 27rem;
+    height: 27rem;
 }
 
 .skills h1, .projects h1 {
