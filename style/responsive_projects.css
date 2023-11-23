@@ -14,7 +14,7 @@
         margin: 0 auto; 
     }
     .img-div img {
-        width: -webkit-fill-available;
+        width: inherit;
     }
     .discription {
         padding: 0.5rem;
