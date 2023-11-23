@@ -48,4 +48,12 @@
         width: 12rem;
         height: 15rem;
     }
+    .hamburger {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .hamburger ul {
+        padding: 0;
+        margin: 1.5rem 2.5rem;
+    }
 }
